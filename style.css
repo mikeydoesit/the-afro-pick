@@ -16,51 +16,60 @@ p {
 }
 
 .first-container {
-	background: url("images/twins.jpg") no-repeat fixed; 
+	background: url("images/twins.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 700px;
+  width: 100%;
+  height: auto;
 }
 
 .second-container {
-	background: url("images/black-inventors.jpg") no-repeat; 
+	background: url("images/black-inventors.jpg") no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 600px;
+  width: 100%;
+  height: auto;
 }
 
 .third-container {
-	background: url("images/poor-africans.jpg") no-repeat fixed; 
+	background: url("images/poor-africans.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 650px;
+  width: 100%;
+  height: auto;
 }
 
 .fourth-container {
-  background: url("images/jollof1.jpg") no-repeat; 
+  background: url("images/jollof1.jpg") no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 650px;
+  width: 100%;
+  height: auto;
 }
 
 .info-block {
   color: white;
   margin-left: 5%;
-  margin-top: 20%;
-  margin-bottom: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .btn {
   font-weight: bold;
   font-size: 10px;
+}
+
+
+* {
+  box-sizing: border-box;
 }
 
 .navigation {
