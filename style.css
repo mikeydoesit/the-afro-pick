@@ -16,7 +16,7 @@ p {
 }
 
 .first-container {
-	background: url("images/twins.jpg") no-repeat center center fixed; 
+	background: url("images/twins.jpg") no-repeat center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -25,7 +25,7 @@ p {
 }
 
 .second-container {
-	background: url("images/black-inventors.jpg") no-repeat center center; 
+	background: url("images/black-inventors.jpg") no-repeat center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -34,7 +34,7 @@ p {
 }
 
 .third-container {
-	background: url("images/poor-africans.jpg") no-repeat center center fixed; 
+	background: url("images/poor-africans.jpg") no-repeat center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -43,7 +43,7 @@ p {
 }
 
 .fourth-container {
-  background: url("images/jollof1.jpg") no-repeat center center; 
+  background: url("images/jollof1.jpg") no-repeat center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
