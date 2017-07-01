@@ -22,7 +22,6 @@ p {
   -o-background-size: cover;
   background-size: cover;
   height: 700px;
-  margin: 0;
 }
 
 .second-container {
@@ -55,7 +54,7 @@ p {
 .info-block {
   color: white;
   margin-left: 5%;
-  margin-top: auto;
+  margin-top: 20%;
   margin-bottom: auto;
 }
 
@@ -64,10 +63,6 @@ p {
   font-size: 10px;
 }
 
-
-* {
-  box-sizing: border-box;
-}
 
 .navigation {
   width: 100%;
