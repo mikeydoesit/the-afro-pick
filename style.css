@@ -1,0 +1,154 @@
+body {
+	margin: 0;
+  background: #e6e6e6;
+  font-family: "Kanit", sans-serif !important;
+}
+
+h1{
+  font-size: 75px !important;
+  font-weight: bold !important;
+  color: white;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 100 !important;
+}
+
+.first-container {
+	background: url("images/twins.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 700px;
+}
+
+.second-container {
+	background: url("images/black-inventors.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+}
+
+.third-container {
+	background: url("images/poor-africans.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 650px;
+}
+
+.fourth-container {
+  background: url("images/jollof1.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 650px;
+}
+
+.info-block {
+  color: white;
+  margin-left: 5%;
+  margin-top: 250px;
+}
+
+.btn {
+  font-weight: bold;
+  font-size: 10px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.navigation {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  background: #fff;
+  height: 50px;
+}
+.navigation__inner {
+  display: flex;
+  max-width: 900px;
+  height: 50px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.toggle:checked ~ .navigation__inner {
+  height: auto;
+}
+.navigation__link {
+  display: block;
+  padding: 0 20px;
+  font-size: 14px;
+  line-height: 50px;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+.logo-size {
+  height: 33px;
+}
+.navigation__link:hover {
+  text-decoration: underline;
+}
+.navigation__logo {
+  flex-shrink: 0;
+  align-self: flex-start;
+  border-left: 1px solid #ccc;
+}
+.navigation__logo .navigation__link {
+  font-weight: bold;
+}
+.navigation__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-top: 0;
+  border-right: 0;
+}
+@media screen and (max-width: 400px) {
+  .navigation__item {
+    flex-basis: 100%;
+  }
+}
+.navigation__toggle {
+  flex-shrink: 0;
+  background: #fff;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.navigation__toggle .navigation__link {
+  position: relative;
+  padding-right: 50px;
+}
+.navigation__toggle .navigation__link:after {
+  content: '';
+  position: absolute;
+  top: 22px;
+  right: 20px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #000 transparent transparent transparent;
+}
+.toggle:checked ~ .navigation__inner .navigation__toggle .navigation__link:after {
+  border-width: 0 5px 5px 5px;
+  border-color: transparent transparent #000 transparent;
+}
+.toggle {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
