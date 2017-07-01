@@ -22,7 +22,7 @@ p {
   -o-background-size: cover;
   background-size: cover;
   height: 700px;
-  width: 100%;
+  margin: 0;
 }
 
 .second-container {
@@ -55,7 +55,8 @@ p {
 .info-block {
   color: white;
   margin-left: 5%;
-  margin-top: 250px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .btn {
